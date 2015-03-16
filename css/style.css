@@ -13,7 +13,7 @@
 }
 
 .black {
-  background-color: #222;
+  background-image: url('../images/crisscross.png');
 }
 
 .row-top-black
@@ -35,6 +35,11 @@
   height: 97%;
 }
 
+.subscribe-buttons
+{
+  height: 97%;
+}
+
 .player
 {
   height: 100%;
@@ -52,11 +57,35 @@
 .row-recent-episode
 {
   margin-top: 4%;
+  width: 101%;
+  height: 0;
+  padding-bottom: 10%;
+}
+
+.row-top-black
+{
+  width: 100%;
+  height: 0;
+  padding-bottom: 10%;
 }
 
 .ep-text
 {
   color: white;
+}
+
+.rss-button
+{
+  margin-right: 10px;
+  background-color: #680F3B;
+  border-color: #680F3B;
+}
+
+.itunes-button
+{
+  background-color: #680F3B;
+  border-color: #680F3B;
+  margin-right: 4%;
 }
 
 .ep-details

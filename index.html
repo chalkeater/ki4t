@@ -3,6 +3,8 @@
 
   <head>
     <title>Korean Indie 4-Track</title>
+
+    <meta name='viewport' content='width-device-width, initial-scale=1'>
     <link href='css/bootstrap.css' rel='stylesheet'>
     <link href='css/style.css' rel='stylesheet'>
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -10,9 +12,12 @@
   </head>
 
   <body>
-    <nav class='navbar navbar-inverse navbar-default navbar-fixed-top top-nav'>
-      <div class='container-fluid'>
+    <nav class='navbar navbar-inverse navbar-fixed-top top-nav'>
+      <div class='container-fluid' role='navigation'>
           <!-- Menu here -->
+        <div class='navbar-header'>
+          <a href='index.html' class='navbar-brand'><img src='images/kift-text.jpg'></a>
+        </div>
         <ul class='nav navbar-nav navbar-right'>
           <li><a href='past-eps.html'>Past Episodes</a></li>
           <li><a href='about'>About</a></li>
@@ -33,8 +38,9 @@
             <iframe width="100%" height="166" scrolling="no" frameborder="no" color="000000"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/194966335&amp;color=black&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;color=000000&amp;show_reposts=false"></iframe>
           </div>
-          <div class='col-sm-8 black two-thirds-player text-logo'>
-            <img src='images/kift-text.jpg'>
+          <div class='col-sm-8 black subscribe-buttons text-logo'>
+            <a class='button btn btn-lg btn-primary rss-button' href='#' role='button'>Subscribe with RSS</a>
+            <a class='button btn btn-lg btn-primary itunes-button' href='#' role='button'>Subscribe with iTunes</a>
           </div>
         </div>
       </div>
